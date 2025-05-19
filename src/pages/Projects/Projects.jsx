@@ -5,45 +5,56 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Aditi: Hospital Management System",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+      "Full-stack hospital management system using MERN stack. Features include appointment booking, doctor availability, and user/admin dashboards, improving workflows by 30% and managing over 500 monthly appointments.",
+    src: "aditi.jpg",
+    link: "https://i.postimg.cc/BnK1yN6W/1.jpg",
+    color: "#34d399",
+    githubLink: "https://github.com/SAHILSINGHRAWAT/Aditi.git",
+    liveLink: "https://aditi-f.onrender.com/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Study Notion: Full-Stack EdTech Application",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+      "An EdTech platform built with the MERN stack. Implements authentication, role-based dashboards (admin, instructor, student), and course management, supporting 1,000+ users with smooth video lecture organization.",
+    src: "studynotion.jpg",
+    link: "https://i.postimg.cc/J4yyDKjy/2.png",
+    color: "#60a5fa",
+    githubLink: "https://github.com/SAHILSINGHRAWAT/Study-Notion-Edtech-Platform.git",
+    liveLink: "https://studynotion-frontend.vercel.app/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "AssetNexus | React, Vite, Tailwind, MongoDB, Cloudinary",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+      "Designed and developed a full-stack Digital Asset Management (DAM) system for efficient digital asset storage and organization. Built scalable backend APIs with Express.js, used Cloudinary for image storage, and MongoDB as the NoSQL database. The frontend was crafted using React, Tailwind CSS, and Framer Motion.",
+    src: "asset.jpg",
+    link: "https://i.postimg.cc/X7jdDwMx/3.png",
+    color: "#4ADE80",
+    githubLink: "https://github.com/SAHILSINGHRAWAT/AssetNexus",
+    liveLink: "https://assetnexus.vercel.app",
   },
   {
-    title: "CodeKori 🔥",
+    title: "AI Guardian",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+      "Built using MERN stack, Redis Pub/Sub, and Python. Implements a secure communication layer for ethical AI use. Includes real-time threat detection, DNS filtering, and ML-based ChatGPT misuse prevention.",
+    src: "aiguardian.jpg",
+    link: "https://i.postimg.cc/QN1QDr7G/aiguardian.png",
+    color: "#facc15",
+    githubLink: "https://github.com/SAHILSINGHRAWAT/AI-Guardian.git",
+    liveLink: "https://ai-guardian-dashboard.vercel.app",
   },
+  {
+    title: "Instagram Clone | Flutter, HTTP, Redis Pub/Sub",
+    description:
+      "Developed a Flutter-based Instagram web clone with real-time messaging using HTTP requests. Implemented instant communication and real-time updates for posts and notifications. Integrated Redis Pub/Sub for efficient message passing, improving scalability and responsiveness.",
+    src: "insta.jpg",
+    link: "https://i.postimg.cc/3NvF8gVH/insta-clone.png",
+    color: "#E1306C",
+    githubLink: "https://github.com/SAHILSINGHRAWAT/Instagram-Clone",
+    liveLink: "https://instagram-clone-app.vercel.app",
+  },
+  
 ];
 
 export default function Projects() {
